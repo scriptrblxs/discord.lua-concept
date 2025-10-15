@@ -5,7 +5,8 @@ For good reasons, switch to `discord.py` or use Discordia instead.
 
 ## Installation
 
-Download the `discord/` directory and copy it to your project. Simple.
+Download `curl` and `libwebsockets`.
+Copy the `discord/` to your project. Simple.
 ```
 local discord = require("discord/discord.lua")
 ``

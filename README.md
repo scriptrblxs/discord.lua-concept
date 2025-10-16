@@ -6,7 +6,11 @@ For good reasons, switch to `discord.py` or use Discordia instead.
 ## Installation
 
 Download `curl` and `libwebsockets`.
-Copy the `discord/` to your project. Simple.
+
+REQUIRED:
+`cd` to your main.lua parent directory/folder. DO NOT run your script while in another directory.
+
+Copy the `discord/` to your main.lua parent directory/folder. Simple.
 ```
-local discord = require("discord/discord.lua")
+local discord = require("discord")
 ``
